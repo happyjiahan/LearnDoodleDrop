@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "cocos2d.h"
 
-@interface GameScene : GameScene {
+@interface GameScene : CCLayer
+{
     
 }
+
++ (id)scene;
 
 @end

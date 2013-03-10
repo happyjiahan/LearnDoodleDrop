@@ -11,4 +11,11 @@
 
 @implementation GameScene
 
++ (id)scene
+{
+    CCScene *aScene = [CCScene node];
+    CCLayer *aLayer = [CCLayer node];
+    [aScene addChild:aLayer];
+    return aScene;
+}
 @end

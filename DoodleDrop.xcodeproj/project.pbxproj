@@ -461,9 +461,9 @@
 			children = (
 				4CD1D11816EC499200A305B7 /* AppDelegate.h */,
 				4CD1D11916EC499200A305B7 /* AppDelegate.m */,
-				4CD1D11B16EC499200A305B7 /* HelloWorldLayer.h */,
 				4C78B04C16EC5BC900EF72EA /* GameScene.h */,
 				4C78B04D16EC5BC900EF72EA /* GameScene.m */,
+				4CD1D11B16EC499200A305B7 /* HelloWorldLayer.h */,
 				4CD1D11C16EC499200A305B7 /* HelloWorldLayer.m */,
 				4CD1D11E16EC499200A305B7 /* IntroLayer.h */,
 				4CD1D11F16EC499200A305B7 /* IntroLayer.m */,
