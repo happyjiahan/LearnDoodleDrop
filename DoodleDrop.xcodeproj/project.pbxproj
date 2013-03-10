@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C78B04E16EC5BC900EF72EA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78B04D16EC5BC900EF72EA /* GameScene.m */; };
 		4CD1CF8F16EC498F00A305B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD1CF8E16EC498F00A305B7 /* QuartzCore.framework */; };
 		4CD1CF9116EC498F00A305B7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD1CF9016EC498F00A305B7 /* OpenGLES.framework */; };
 		4CD1CF9316EC498F00A305B7 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD1CF9216EC498F00A305B7 /* OpenAL.framework */; };
@@ -136,6 +137,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C78B04C16EC5BC900EF72EA /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		4C78B04D16EC5BC900EF72EA /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		4CD1CF8B16EC498F00A305B7 /* DoodleDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1CF8E16EC498F00A305B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4CD1CF9016EC498F00A305B7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -459,6 +462,8 @@
 				4CD1D11816EC499200A305B7 /* AppDelegate.h */,
 				4CD1D11916EC499200A305B7 /* AppDelegate.m */,
 				4CD1D11B16EC499200A305B7 /* HelloWorldLayer.h */,
+				4C78B04C16EC5BC900EF72EA /* GameScene.h */,
+				4C78B04D16EC5BC900EF72EA /* GameScene.m */,
 				4CD1D11C16EC499200A305B7 /* HelloWorldLayer.m */,
 				4CD1D11E16EC499200A305B7 /* IntroLayer.h */,
 				4CD1D11F16EC499200A305B7 /* IntroLayer.m */,
@@ -1009,6 +1014,7 @@
 				4CD1D11A16EC499200A305B7 /* AppDelegate.m in Sources */,
 				4CD1D11D16EC499200A305B7 /* HelloWorldLayer.m in Sources */,
 				4CD1D12016EC499200A305B7 /* IntroLayer.m in Sources */,
+				4C78B04E16EC5BC900EF72EA /* GameScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1118,7 @@
 				4CD1D12516EC499200A305B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
